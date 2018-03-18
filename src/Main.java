@@ -11,7 +11,10 @@ public class Main {
     public void process(int k, int[] ints){
         List<List<Integer>> nodes = new ArrayList<>();
         for (int i = 0 ; i < ints.length; i++){
-
+            ArrayList<Integer> nodeList = new ArrayList<>();
+            while(true){
+                nodeList.add(ints[i]);
+            }
         }
     }
 }
